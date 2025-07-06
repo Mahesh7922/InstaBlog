@@ -5,7 +5,8 @@ import Container from "./container/Container";
 import Logo from "./Logo";
 import LogoutBtn from "./Header/LogoutBtn";
 import RTE from "./RTE";
-import Signup from "./Signup";
+// Correct the SignUp component import path
+export { default as Signup } from './SignUp.jsx';
 import Login from "./Login";
 import Button from "./Button";
 import PostForm from "./post-form/PostForm";
@@ -19,7 +20,7 @@ export {
     Logo,
     LogoutBtn,
     RTE,
-    Signup,
+    // Signup,
     Login,
     Button,
     PostForm,
